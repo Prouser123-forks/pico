@@ -24,7 +24,7 @@ jobs:
         submodules: 'true'
 
     - name: Install toolchain
-      run: apt update && apt install -y cmake gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential libstdc++-arm-none-eabi-newlib
+      run: sudo apt-get update && sudo apt-get install -y cmake gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential libstdc++-arm-none-eabi-newlib
 
     - name: Configure CMake
       # Configure CMake in a 'build' subdirectory.
