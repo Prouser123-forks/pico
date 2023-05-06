@@ -53,6 +53,13 @@ jobs:
     if: ${{ github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-latest
     steps:
+
+    - name: "(pkgs): Update package lists"
+      run: sudo apt-get update
+
+    - name: "(pkgs): Install rename"
+      run: sudo apt-get install -y rename
+
     - name: Download all artifacts
       uses: actions/download-artifact@v3
       with:
@@ -71,6 +78,9 @@ jobs:
         publish_dir: artifacts
         destination_dir: builds/main/
         keep_files: true
+        # Commit as github actions (noted on action README)
+        user_name: 'github-actions[bot]'
+        user_email: 'github-actions[bot]@users.noreply.github.com'
 
 #    - name: Test
 #      working-directory: ${{github.workspace}}/build
