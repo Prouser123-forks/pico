@@ -69,8 +69,8 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: pages-deploy/${BUILD_TYPE_LOWERCASE}
-        destination_dir: builds/main/${BUILD_TYPE_LOWERCASE}
+        publish_dir: pages-deploy/${{ env.BUILD_TYPE_LOWERCASE }}
+        destination_dir: builds/main/${{ env.BUILD_TYPE_LOWERCASE }}
         keep_files: true
 
 #    - name: Test
