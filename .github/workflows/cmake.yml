@@ -53,6 +53,11 @@ jobs:
     if: ${{ github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        # Checkout submodules (non-recursive)
+        submodules: 'true'
 
     - name: "(pkgs): Update package lists"
       run: sudo apt-get update
