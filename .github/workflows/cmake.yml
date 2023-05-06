@@ -39,7 +39,7 @@ jobs:
 
     - name: Build
       # Build the program with the given configuration
-      run: cmake --build ${{github.workspace}}/build --config ${{ matrix.build-type }}
+      run: cmake --build ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=${{ matrix.build-type }}
 
     - name: "Upload Build Artifacts"
       uses: actions/upload-artifact@v3
