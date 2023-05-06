@@ -1,7 +1,13 @@
 Archive member included to satisfy reference by file (symbol)
 
+/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_thumb1_case_shi.o)
+                              CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj (__gnu_thumb1_case_shi)
 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
                               CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.obj (__aeabi_idiv0)
+/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_lshrdi3.o)
+                              CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj (__aeabi_llsr)
+/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_ashldi3.o)
+                              CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj (__aeabi_llsl)
 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
                               /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o (atexit)
 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-calloc.o)
@@ -65,11 +71,11 @@ Discarded input sections
  .data          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .text.set_sys_clock_48mhz
-                0x0000000000000000       0x40 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+                0x0000000000000000       0x38 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .text.set_sys_clock_pll
                 0x0000000000000000       0x78 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .text.check_sys_clock_khz
-                0x0000000000000000      0x178 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+                0x0000000000000000       0x8c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .text.setup_default_uart
                 0x0000000000000000        0x8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .comment       0x0000000000000000       0x34 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -78,62 +84,62 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .text.gpio_default_irq_handler
-                0x0000000000000000      0x248 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_get_pad
-                0x0000000000000000       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000000000000       0x24 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_set_function
-                0x0000000000000000       0x30 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000000000000       0x2c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_get_function
                 0x0000000000000000       0x14 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_set_pulls
-                0x0000000000000000       0x30 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000000000000       0x2c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_set_irqover
-                0x0000000000000000       0x24 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000000000000       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_set_inover
-                0x0000000000000000       0x24 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000000000000       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_set_outover
-                0x0000000000000000       0x24 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000000000000       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_set_oeover
-                0x0000000000000000       0x24 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000000000000       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_set_input_hysteresis_enabled
-                0x0000000000000000       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000000000000       0x1c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_is_input_hysteresis_enabled
                 0x0000000000000000       0x14 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_set_slew_rate
-                0x0000000000000000       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000000000000       0x1c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_get_slew_rate
                 0x0000000000000000       0x14 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_set_drive_strength
                 0x0000000000000000       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_get_drive_strength
                 0x0000000000000000       0x14 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .text.gpio_set_irq_enabled
-                0x0000000000000000       0x54 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .text.gpio_set_irq_enabled_with_callback
-                0x0000000000000000       0xb0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_set_irq_callback
-                0x0000000000000000       0x40 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000000000000       0x3c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_add_raw_irq_handler_with_order_priority_masked
-                0x0000000000000000       0x44 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .text.gpio_add_raw_irq_handler_masked
                 0x0000000000000000       0x38 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .text.gpio_add_raw_irq_handler_masked
+                0x0000000000000000        0xa CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_remove_raw_irq_handler_masked
                 0x0000000000000000       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .text.gpio_set_dormant_irq_enabled
-                0x0000000000000000       0x40 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_acknowledge_irq
+                0x0000000000000000       0x18 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .text.gpio_set_irq_enabled
+                0x0000000000000000       0x44 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .text.gpio_set_irq_enabled_with_callback
+                0x0000000000000000       0x1e CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .text.gpio_default_irq_handler
+                0x0000000000000000       0x8c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .text.gpio_set_dormant_irq_enabled
+                0x0000000000000000       0x30 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .text.gpio_set_input_enabled
+                0x0000000000000000       0x1c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .text.gpio_init
+                0x0000000000000000       0x16 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .text.gpio_deinit
+                0x0000000000000000        0xa CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .text.gpio_init_mask
                 0x0000000000000000       0x1c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_debug_pins_init
-                0x0000000000000000       0x7c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .text.gpio_set_input_enabled
-                0x0000000000000000       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .text.gpio_init
-                0x0000000000000000       0x3c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .text.gpio_deinit
-                0x0000000000000000       0x30 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .text.gpio_init_mask
-                0x0000000000000000       0x68 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000000000000       0x18 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .bss.callbacks
                 0x0000000000000000        0x8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .bss.raw_irq_mask
@@ -145,69 +151,59 @@ Discarded input sections
  .data          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
  .text.rp2040_chip_version
-                0x0000000000000000        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x0000000000000000        0xa CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .text.hw_claim_lock
-                0x0000000000000000       0x18 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .text.hw_claim_unlock
-                0x0000000000000000       0x14 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .text.hw_is_claimed
-                0x0000000000000000       0x18 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
  .text.hw_claim_unused_from_range
-                0x0000000000000000       0x9c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x0000000000000000       0x54 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
  .text.hw_claim_clear
-                0x0000000000000000       0x38 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x0000000000000000       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
  .text.spin_lock_init
-                0x0000000000000000       0x18 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .rodata.spin_lock_claim.str1.4
+                0x0000000000000000       0x14 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .rodata.spin_lock_claim.str1.1
                 0x0000000000000000       0x1f CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
  .text.spin_lock_claim
                 0x0000000000000000       0x18 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
  .text.spin_lock_claim_mask
-                0x0000000000000000       0x40 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000000000000       0x1e CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
  .text.spin_lock_unclaim
                 0x0000000000000000       0x24 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .rodata.spin_lock_claim_unused.str1.4
+ .rodata.spin_lock_claim_unused.str1.1
                 0x0000000000000000       0x1b CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
  .text.spin_lock_claim_unused
-                0x0000000000000000       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000000000000       0x1c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
  .text.spin_lock_is_claimed
                 0x0000000000000000       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
  .bss.claimed   0x0000000000000000        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .text.irq_is_enabled
-                0x0000000000000000       0x18 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .text.irq_set_mask_enabled
-                0x0000000000000000       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.irq_set_pending
                 0x0000000000000000       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.irq_has_shared_handler
-                0x0000000000000000       0x2c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000000000000       0x24 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.irq_get_exclusive_handler
-                0x0000000000000000       0x50 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000000000000       0x44 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.irq_add_shared_handler
-                0x0000000000000000      0x1e8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000000000000      0x1a0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.irq_set_priority
-                0x0000000000000000       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000000000000       0x24 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.irq_get_priority
-                0x0000000000000000       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .rodata.user_irq_claim.str1.4
+                0x0000000000000000       0x1c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .rodata.user_irq_claim.str1.1
                 0x0000000000000000       0x1c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.user_irq_claim
                 0x0000000000000000       0x18 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.user_irq_unclaim
                 0x0000000000000000       0x14 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .rodata.user_irq_claim_unused.str1.4
+ .rodata.user_irq_claim_unused.str1.1
                 0x0000000000000000       0x1b CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.user_irq_claim_unused
-                0x0000000000000000       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000000000000       0x24 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.user_irq_is_claimed
                 0x0000000000000000       0x14 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .bss.user_irq_claimed
@@ -218,23 +214,23 @@ Discarded input sections
  .data          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/sem.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/sem.c.obj
  .text.sem_init
-                0x0000000000000000       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/sem.c.obj
+                0x0000000000000000       0x1e CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/sem.c.obj
  .time_critical.sem_available
-                0x0000000000000000        0x8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/sem.c.obj
+                0x0000000000000000        0x6 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/sem.c.obj
  .time_critical.sem_acquire_blocking
-                0x0000000000000000       0x44 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/sem.c.obj
- .time_critical.sem_acquire_timeout_ms
-                0x0000000000000000       0x80 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/sem.c.obj
- .time_critical.sem_acquire_timeout_us
-                0x0000000000000000       0x74 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/sem.c.obj
- .time_critical.sem_acquire_block_until
-                0x0000000000000000       0x68 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/sem.c.obj
- .time_critical.sem_try_acquire
-                0x0000000000000000       0x44 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/sem.c.obj
- .time_critical.sem_release
-                0x0000000000000000       0x4c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/sem.c.obj
- .time_critical.sem_reset
                 0x0000000000000000       0x40 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/sem.c.obj
+ .time_critical.sem_acquire_block_until
+                0x0000000000000000       0x54 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/sem.c.obj
+ .time_critical.sem_acquire_timeout_ms
+                0x0000000000000000       0x3c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/sem.c.obj
+ .time_critical.sem_acquire_timeout_us
+                0x0000000000000000       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/sem.c.obj
+ .time_critical.sem_try_acquire
+                0x0000000000000000       0x3e CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/sem.c.obj
+ .time_critical.sem_release
+                0x0000000000000000       0x46 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/sem.c.obj
+ .time_critical.sem_reset
+                0x0000000000000000       0x3c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/sem.c.obj
  .comment       0x0000000000000000       0x34 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/sem.c.obj
  .ARM.attributes
                 0x0000000000000000       0x2c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/sem.c.obj
@@ -245,33 +241,29 @@ Discarded input sections
  .data          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
  .time_critical.mutex_enter_blocking
-                0x0000000000000000       0x48 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000000000000       0x42 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
  .time_critical.recursive_mutex_enter_blocking
-                0x0000000000000000       0x54 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
- .time_critical.mutex_try_enter
-                0x0000000000000000       0x44 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000000000000       0x50 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
  .time_critical.recursive_mutex_try_enter
-                0x0000000000000000       0x54 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000000000000       0x4e CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
  .time_critical.mutex_enter_timeout_ms
-                0x0000000000000000       0x90 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
- .time_critical.recursive_mutex_enter_timeout_ms
-                0x0000000000000000       0x9c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000000000000       0x3c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
  .time_critical.mutex_enter_timeout_us
-                0x0000000000000000       0x80 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
- .time_critical.recursive_mutex_enter_timeout_us
-                0x0000000000000000       0x90 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
- .time_critical.mutex_enter_block_until
-                0x0000000000000000       0x74 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000000000000       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
  .time_critical.recursive_mutex_enter_block_until
-                0x0000000000000000       0x80 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000000000000       0x64 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .time_critical.recursive_mutex_enter_timeout_ms
+                0x0000000000000000       0x3c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .time_critical.recursive_mutex_enter_timeout_us
+                0x0000000000000000       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
  .time_critical.recursive_mutex_exit
-                0x0000000000000000       0x44 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000000000000       0x42 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .text.critical_section_init
-                0x0000000000000000       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj
  .text.critical_section_init_with_lock_num
+                0x0000000000000000       0x14 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .text.critical_section_init
                 0x0000000000000000       0x14 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj
  .text.critical_section_deinit
                 0x0000000000000000       0x1c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/critical_section.c.obj
@@ -283,36 +275,36 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
  .text.repeating_timer_callback
                 0x0000000000000000       0x1c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
- .rodata.alarm_pool_dump_key.str1.4
+ .rodata.alarm_pool_dump_key.str1.1
                 0x0000000000000000        0xf CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_dump_key
-                0x0000000000000000       0x34 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000000000000       0x2c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_get_default
                 0x0000000000000000        0x8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_create
-                0x0000000000000000       0x74 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000000000000       0x44 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_create_with_unused_hardware_alarm
-                0x0000000000000000       0x74 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000000000000       0x44 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_destroy
                 0x0000000000000000       0x44 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_add_alarm_at_force_in_context
-                0x0000000000000000      0x11c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000000000000       0x7c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_hardware_alarm_num
                 0x0000000000000000        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_core_num
                 0x0000000000000000        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_add_repeating_timer_us
-                0x0000000000000000      0x200 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000000000000       0x70 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
  .text.cancel_repeating_timer
-                0x0000000000000000       0x8c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000000000000       0x18 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_dump
                 0x0000000000000000       0x34 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
  .text.sleep_until
-                0x0000000000000000       0xc4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000000000000       0x98 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
  .text.sleep_us
                 0x0000000000000000       0x24 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
  .text.sleep_ms
-                0x0000000000000000       0x34 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000000000000       0x14 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.at_the_end_of_time
                 0x0000000000000000        0x8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.nil_time
@@ -321,9 +313,9 @@ Discarded input sections
  .data          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj
  .text.check_single_timeout_us
-                0x0000000000000000       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+                0x0000000000000000       0x24 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj
  .text.check_per_iteration_timeout_us
-                0x0000000000000000       0x48 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+                0x0000000000000000       0x44 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj
  .text.init_single_timeout_until
                 0x0000000000000000        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/timeout_helper.c.obj
  .text.init_per_iteration_timeout_us
@@ -338,29 +330,29 @@ Discarded input sections
                 0x0000000000000000       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_is_claimed
                 0x0000000000000000       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .rodata.hardware_alarm_claim_unused.str1.4
+ .rodata.hardware_alarm_claim_unused.str1.1
                 0x0000000000000000       0x14 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim_unused
-                0x0000000000000000       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .text.busy_wait_us_32
-                0x0000000000000000       0x68 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .text.busy_wait_us
-                0x0000000000000000       0x54 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .text.busy_wait_ms
-                0x0000000000000000       0x88 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000000000000       0x1c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.busy_wait_until
+                0x0000000000000000       0x1c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .text.busy_wait_us
+                0x0000000000000000       0x2c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .text.busy_wait_us_32
                 0x0000000000000000       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .text.busy_wait_ms
+                0x0000000000000000       0x2c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_force_irq
-                0x0000000000000000       0x3c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000000000000       0x40 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/datetime.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/datetime.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/datetime.c.obj
- .rodata.datetime_to_str.str1.4
+ .rodata.datetime_to_str.str1.1
                 0x0000000000000000       0x19 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/datetime.c.obj
  .text.datetime_to_str
                 0x0000000000000000       0x50 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/datetime.c.obj
- .rodata.str1.4
-                0x0000000000000000       0xad CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/datetime.c.obj
+ .rodata.str1.1
+                0x0000000000000000       0x8f CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/datetime.c.obj
  .rodata.DATETIME_DOWS
                 0x0000000000000000       0x1c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/datetime.c.obj
  .rodata.DATETIME_MONTHS
@@ -371,52 +363,58 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
- .rodata.ph_dump_node.str1.4
+ .rodata.ph_dump_node.str1.1
                 0x0000000000000000       0x15 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_dump_node
-                0x0000000000000000       0xb0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000000000000       0x7c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_create
-                0x0000000000000000       0x60 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
- .text.ph_clear
-                0x0000000000000000       0x30 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000000000000       0x2c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_destroy
-                0x0000000000000000       0x14 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
- .rodata.ph_dump.str1.4
+                0x0000000000000000       0x12 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
+ .rodata.ph_dump.str1.1
                 0x0000000000000000        0xf CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
- .text.ph_dump  0x0000000000000000      0x38c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
+ .text.ph_dump  0x0000000000000000       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/queue.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/queue.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/queue.c.obj
+ .text.queue_get_level_unsafe
+                0x0000000000000000       0x12 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/queue.c.obj
+ .text.queue_add_internal
+                0x0000000000000000       0x7e CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/queue.c.obj
+ .text.queue_remove_internal
+                0x0000000000000000       0x7a CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/queue.c.obj
+ .text.queue_peek_internal
+                0x0000000000000000       0x6a CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/queue.c.obj
  .text.queue_init_with_spinlock
-                0x0000000000000000       0x24 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/queue.c.obj
+                0x0000000000000000       0x22 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/queue.c.obj
  .text.queue_free
-                0x0000000000000000        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/queue.c.obj
+                0x0000000000000000        0xa CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/queue.c.obj
  .text.queue_try_add
-                0x0000000000000000       0x70 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/queue.c.obj
+                0x0000000000000000        0xa CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/queue.c.obj
  .text.queue_try_remove
-                0x0000000000000000       0x70 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/queue.c.obj
+                0x0000000000000000        0xa CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/queue.c.obj
  .text.queue_try_peek
-                0x0000000000000000       0x5c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/queue.c.obj
+                0x0000000000000000        0xa CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/queue.c.obj
  .text.queue_add_blocking
-                0x0000000000000000       0x74 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/queue.c.obj
+                0x0000000000000000        0xa CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/queue.c.obj
  .text.queue_remove_blocking
-                0x0000000000000000       0x74 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/queue.c.obj
+                0x0000000000000000        0xa CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/queue.c.obj
  .text.queue_peek_blocking
-                0x0000000000000000       0x60 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/queue.c.obj
+                0x0000000000000000        0xa CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/queue.c.obj
  .comment       0x0000000000000000       0x34 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/queue.c.obj
  .ARM.attributes
                 0x0000000000000000       0x2c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/queue.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .text.uart_init
-                0x0000000000000000       0xe0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .text.uart_deinit
-                0x0000000000000000       0x24 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x0000000000000000       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .text.uart_set_baudrate
-                0x0000000000000000       0x68 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x0000000000000000       0x5c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .text.uart_init
+                0x0000000000000000       0x94 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .text.uart_set_translate_crlf
-                0x0000000000000000       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x0000000000000000       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .text.uart_is_readable_within_us
                 0x0000000000000000       0x24 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .bss.uart_char_to_line_feed
@@ -427,24 +425,22 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .text.clocks_irq_handler
-                0x0000000000000000       0xc4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .text.clock_stop
-                0x0000000000000000       0x2c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .text.clock_configure
-                0x0000000000000000      0x114 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000000000000       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .text.clocks_irq_handler
+                0x0000000000000000       0x48 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .text.clock_get_hz
                 0x0000000000000000        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .text.clock_set_reported_hz
                 0x0000000000000000        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .text.frequency_count_khz
-                0x0000000000000000       0x48 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000000000000       0x44 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .text.clocks_enable_resus
                 0x0000000000000000       0x34 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .text.clock_gpio_init_int_frac
-                0x0000000000000000       0x54 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000000000000       0x40 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .text.clock_configure_gpin
-                0x0000000000000000      0x10c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000000000000       0x3c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .bss._resus_callback
                 0x0000000000000000        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .rodata.gpin0_src
@@ -453,7 +449,7 @@ Discarded input sections
  .data          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
  .text.pll_deinit
-                0x0000000000000000        0x8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x0000000000000000        0x6 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
@@ -470,15 +466,15 @@ Discarded input sections
  .text.watchdog_get_count
                 0x0000000000000000       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .text._watchdog_enable
-                0x0000000000000000       0x78 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000000000000       0x68 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .text.watchdog_enable
-                0x0000000000000000       0x84 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000000000000       0x18 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .text.watchdog_reboot
-                0x0000000000000000       0x98 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000000000000       0x44 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .text.watchdog_caused_reboot
                 0x0000000000000000       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .text.watchdog_enable_caused_reboot
-                0x0000000000000000       0x24 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000000000000       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .bss.load_value
                 0x0000000000000000        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
@@ -508,19 +504,19 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .text.runtime_install_stack_guard
                 0x0000000000000000       0x38 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .text._sbrk    0x0000000000000000       0x34 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .text._sbrk    0x0000000000000000       0x30 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .text._gettimeofday
                 0x0000000000000000       0x40 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .text.settimeofday
-                0x0000000000000000       0x54 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .text._times   0x0000000000000000       0x24 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000000000000       0x3c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .text._times   0x0000000000000000       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .text._getpid  0x0000000000000000        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .text._kill    0x0000000000000000        0x8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .rodata.__assert_func.str1.4
-                0x0000000000000000       0x43 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .text._kill    0x0000000000000000        0x6 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .rodata.__assert_func.str1.1
+                0x0000000000000000       0x3d CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .text.__assert_func
-                0x0000000000000000       0x34 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .rodata.panic_unsupported.str1.4
+                0x0000000000000000       0x30 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .rodata.panic_unsupported.str1.1
                 0x0000000000000000        0xe CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .text.panic_unsupported
                 0x0000000000000000        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
@@ -534,31 +530,33 @@ Discarded input sections
  .text._out_buffer
                 0x0000000000000000        0x8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_null
-                0x0000000000000000        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000000000000        0x2 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x0000000000000000       0x9c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000000000000       0x7a CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x0000000000000000      0x1cc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000000000000       0xf0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ntoa_long
+                0x0000000000000000       0x94 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ntoa_long_long
+                0x0000000000000000       0xbe CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._etoa    0x0000000000000000      0x3e0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .rodata._ftoa.str1.1
+                0x0000000000000000       0x12 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x0000000000000000      0x318 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x0000000000000000       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._etoa    0x0000000000000000      0x44c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .rodata._ftoa.str1.4
-                0x0000000000000000       0x15 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x0000000000000000      0x398 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000000000000        0xe CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x0000000000000000      0xb04 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .rodata._vsnprintf
-                0x0000000000000000      0x1e0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000000000000      0x554 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.__wrap_sprintf
                 0x0000000000000000       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.__wrap_snprintf
-                0x0000000000000000       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000000000000       0x24 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.__wrap_vsnprintf
-                0x0000000000000000       0x1c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000000000000       0x18 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.vfctprintf
                 0x0000000000000000       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.weak_raw_printf
-                0x0000000000000000       0x40 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000000000000       0x16 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.pow10.0
                 0x0000000000000000       0x50 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -583,8 +581,6 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
  .text.__wrap___aeabi_idiv
                 0x0000000000000000       0x50 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .text.__wrap___aeabi_ldiv
-                0x0000000000000000      0x424 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
  .text.divmod_s64s64_rem
                 0x0000000000000000        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
  .text.divmod_u64u64_rem
@@ -672,24 +668,28 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .text.dpow_1   0x0000000000000000      0x274 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .text.dldexp   0x0000000000000000       0x4c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .text.disoddint
+                0x0000000000000000       0x50 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.dpow_int2
-                0x0000000000000000       0xf8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x0000000000000000       0x2c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .text.drem_0   0x0000000000000000       0xd4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .text.dpow_1   0x0000000000000000      0x1c4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.dpowint_0
-                0x0000000000000000      0x1dc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .text.dpow_0   0x0000000000000000      0x1cc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x0000000000000000       0xd0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .text.dpow_0   0x0000000000000000       0xe0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_ldexp
-                0x0000000000000000       0x4c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x0000000000000000        0x8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_copysign
                 0x0000000000000000       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_trunc
-                0x0000000000000000       0x60 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x0000000000000000       0x48 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_round
-                0x0000000000000000       0xa0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x0000000000000000       0x70 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_floor
-                0x0000000000000000       0x94 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x0000000000000000       0x6c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_ceil
-                0x0000000000000000       0x98 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x0000000000000000       0x70 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_asin
                 0x0000000000000000       0x60 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_acos
@@ -697,19 +697,19 @@ Discarded input sections
  .text.__wrap_atan
                 0x0000000000000000       0x40 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_sinh
-                0x0000000000000000       0x5c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x0000000000000000       0x34 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_cosh
-                0x0000000000000000       0x5c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x0000000000000000       0x34 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_tanh
-                0x0000000000000000       0x68 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .text.__wrap_asinh
-                0x0000000000000000       0xb0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .text.__wrap_acosh
-                0x0000000000000000       0x7c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .text.__wrap_atanh
                 0x0000000000000000       0x60 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .text.__wrap_asinh
+                0x0000000000000000       0xac CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .text.__wrap_acosh
+                0x0000000000000000       0x78 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .text.__wrap_atanh
+                0x0000000000000000       0x3c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_exp2
-                0x0000000000000000       0xbc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x0000000000000000       0x80 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_log2
                 0x0000000000000000       0x18 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_exp10
@@ -723,21 +723,21 @@ Discarded input sections
  .text.__wrap_fma
                 0x0000000000000000       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_powint
-                0x0000000000000000       0xb0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x0000000000000000       0xac CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_pow
-                0x0000000000000000      0x314 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x0000000000000000      0x154 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_hypot
-                0x0000000000000000      0x1ac CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x0000000000000000       0xf0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_cbrt
-                0x0000000000000000       0xcc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x0000000000000000       0x6c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_fmod
-                0x0000000000000000      0x170 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x0000000000000000       0x88 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_remquo
-                0x0000000000000000      0x2a0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x0000000000000000      0x144 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_drem
-                0x0000000000000000       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x0000000000000000        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_remainder
-                0x0000000000000000       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+                0x0000000000000000        0x8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .comment       0x0000000000000000       0x34 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .ARM.attributes
                 0x0000000000000000       0x2c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
@@ -873,41 +873,46 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
- .text.fpow_int2
-                0x0000000000000000       0xd4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
- .text.fpowint_0
-                0x0000000000000000       0xe8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
- .text.fpow_0   0x0000000000000000       0xf8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
- .text.__wrap_ldexpf
+ .text.fldexp   0x0000000000000000       0x30 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+ .text.fisoddint
                 0x0000000000000000       0x30 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+ .text.fpow_int2
+                0x0000000000000000       0x26 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+ .text.frem_0   0x0000000000000000       0x78 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+ .text.fpow_1   0x0000000000000000       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+ .text.fpowint_0
+                0x0000000000000000       0x9c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+ .text.fpow_0   0x0000000000000000       0x94 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+ .text.__wrap_ldexpf
+                0x0000000000000000        0x8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .text.__wrap_copysignf
                 0x0000000000000000        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .text.__wrap_truncf
-                0x0000000000000000       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+                0x0000000000000000       0x22 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .text.__wrap_roundf
-                0x0000000000000000       0x3c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+                0x0000000000000000       0x3e CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .text.__wrap_floorf
-                0x0000000000000000       0x40 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+                0x0000000000000000       0x3c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .text.__wrap_ceilf
-                0x0000000000000000       0x44 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+                0x0000000000000000       0x3e CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .text.__wrap_asinf
-                0x0000000000000000       0x40 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+                0x0000000000000000       0x42 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .text.__wrap_acosf
                 0x0000000000000000       0x40 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .text.__wrap_atanf
                 0x0000000000000000       0x2c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .text.__wrap_sinhf
-                0x0000000000000000       0x3c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+                0x0000000000000000       0x26 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .text.__wrap_coshf
-                0x0000000000000000       0x3c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+                0x0000000000000000       0x26 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .text.__wrap_tanhf
-                0x0000000000000000       0x4c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+                0x0000000000000000       0x48 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .text.__wrap_asinhf
-                0x0000000000000000       0xb4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+                0x0000000000000000       0xa4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .text.__wrap_acoshf
                 0x0000000000000000       0x70 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .text.__wrap_atanhf
-                0x0000000000000000       0x44 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+                0x0000000000000000       0x2e CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .text.__wrap_exp2f
                 0x0000000000000000       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .text.__wrap_log2f
@@ -923,21 +928,21 @@ Discarded input sections
  .text.__wrap_fmaf
                 0x0000000000000000       0x3c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .text.__wrap_powintf
-                0x0000000000000000       0x88 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+                0x0000000000000000       0x90 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .text.__wrap_powf
-                0x0000000000000000      0x1ac CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+                0x0000000000000000       0xe0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .text.__wrap_hypotf
-                0x0000000000000000      0x100 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+                0x0000000000000000       0xae CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .text.__wrap_cbrtf
-                0x0000000000000000       0x9c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+                0x0000000000000000       0x50 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .text.__wrap_fmodf
-                0x0000000000000000       0xbc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+                0x0000000000000000       0x5a CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .text.__wrap_remquof
-                0x0000000000000000      0x14c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+                0x0000000000000000       0xc4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .text.__wrap_dremf
-                0x0000000000000000        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+                0x0000000000000000        0xa CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .text.__wrap_remainderf
-                0x0000000000000000        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+                0x0000000000000000        0x8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .comment       0x0000000000000000       0x34 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .ARM.attributes
                 0x0000000000000000       0x2c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
@@ -959,14 +964,16 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .rodata.__wrap_malloc.str1.4
+ .rodata.check_alloc.str1.1
                 0x0000000000000000        0xe CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .text.check_alloc
+                0x0000000000000000       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .text.__wrap_malloc
-                0x0000000000000000       0x24 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+                0x0000000000000000       0x14 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .text.__wrap_calloc
-                0x0000000000000000       0x24 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+                0x0000000000000000       0x14 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .text.__wrap_realloc
-                0x0000000000000000       0x24 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+                0x0000000000000000       0x14 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .text.__wrap_free
                 0x0000000000000000        0x8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .comment       0x0000000000000000       0x34 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
@@ -998,64 +1005,62 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .text.stdio_buffered_printer
+ .text.stdio_get_until
                 0x0000000000000000       0x64 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .text.stdout_serialize_begin
-                0x0000000000000000       0x30 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .text.stdout_serialize_end
-                0x0000000000000000       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .text.stdio_stack_buffer_flush.part.0
+                0x0000000000000000       0x38 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .text.stdio_buffered_printer
+                0x0000000000000000       0x1e CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.putchar_raw
-                0x0000000000000000       0x98 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .text.puts_raw
-                0x0000000000000000       0x3c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .text._read    0x0000000000000000       0x94 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .text._write   0x0000000000000000       0xac CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .text._open    0x0000000000000000        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .text._close   0x0000000000000000        0x8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .text._lseek   0x0000000000000000        0x8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .text._fstat   0x0000000000000000        0x8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000000000000       0x18 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .text._read    0x0000000000000000       0x24 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .text._write   0x0000000000000000       0x22 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .text._open    0x0000000000000000        0xa CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .text._close   0x0000000000000000        0x6 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .text._lseek   0x0000000000000000        0x6 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .text._fstat   0x0000000000000000        0x6 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text._isatty  0x0000000000000000        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_set_driver_enabled
-                0x0000000000000000       0x30 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .text.stdio_flush
-                0x0000000000000000       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000000000000       0x2c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .text.puts_raw
+                0x0000000000000000       0x1e CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_vprintf
-                0x0000000000000000       0xd8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000000000000       0x44 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_printf
-                0x0000000000000000       0x18 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000000000000       0x16 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_init_all
-                0x0000000000000000        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000000000000        0xa CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_getchar
-                0x0000000000000000       0x74 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000000000000       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.getchar_timeout_us
-                0x0000000000000000       0x98 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000000000000       0x30 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_filter_driver
                 0x0000000000000000        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_set_translate_crlf
                 0x0000000000000000       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_set_chars_available_callback
-                0x0000000000000000       0x30 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000000000000       0x24 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text.stdio_uart_out_chars
-                0x0000000000000000       0x4c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text.stdio_uart_in_chars
-                0x0000000000000000       0x84 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.on_uart_rx
                 0x0000000000000000       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_set_chars_available_callback
-                0x0000000000000000       0x8c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text.stdio_uart_init
-                0x0000000000000000       0x48 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text.stdout_uart_init
-                0x0000000000000000       0x40 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text.stdin_uart_init
-                0x0000000000000000       0x40 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000000000000       0x7c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .text.stdio_uart_in_chars
+                0x0000000000000000       0x54 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .text.stdio_uart_out_chars
+                0x0000000000000000       0x50 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_init_full
                 0x0000000000000000       0x3c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .rodata.str1.4
-                0x0000000000000000       0x2c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .text.stdio_uart_init
+                0x0000000000000000       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .text.stdout_uart_init
+                0x0000000000000000       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .text.stdin_uart_init
+                0x0000000000000000       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .rodata.str1.1
+                0x0000000000000000       0x2b CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr33
                 0x0000000000000000        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr34
@@ -1091,11 +1096,44 @@ Discarded input sections
  .comment       0x0000000000000000       0x34 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .ARM.attributes
                 0x0000000000000000       0x2c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text          0x0000000000000000        0x0 /tmp/cciMebuF.o
- .data          0x0000000000000000        0x0 /tmp/cciMebuF.o
- .bss           0x0000000000000000        0x0 /tmp/cciMebuF.o
+ .text          0x0000000000000000        0x0 /tmp/ccSNvSWl.o
+ .data          0x0000000000000000        0x0 /tmp/ccSNvSWl.o
+ .bss           0x0000000000000000        0x0 /tmp/ccSNvSWl.o
+ .text          0x0000000000000000       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_thumb1_case_shi.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_thumb1_case_shi.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_thumb1_case_shi.o)
+ .debug_line    0x0000000000000000       0x69 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_thumb1_case_shi.o)
+ .debug_info    0x0000000000000000       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_thumb1_case_shi.o)
+ .debug_abbrev  0x0000000000000000       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_thumb1_case_shi.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_thumb1_case_shi.o)
+ .debug_str     0x0000000000000000       0xa6 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_thumb1_case_shi.o)
+ .ARM.attributes
+                0x0000000000000000       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_thumb1_case_shi.o)
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .text          0x0000000000000000       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_lshrdi3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_lshrdi3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_lshrdi3.o)
+ .debug_line    0x0000000000000000       0x6b /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_lshrdi3.o)
+ .debug_info    0x0000000000000000       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_lshrdi3.o)
+ .debug_abbrev  0x0000000000000000       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_lshrdi3.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_lshrdi3.o)
+ .debug_str     0x0000000000000000       0xa6 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_lshrdi3.o)
+ .ARM.attributes
+                0x0000000000000000       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_lshrdi3.o)
+ .text          0x0000000000000000       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_ashldi3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_ashldi3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_ashldi3.o)
+ .debug_line    0x0000000000000000       0x6b /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_ashldi3.o)
+ .debug_info    0x0000000000000000       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_ashldi3.o)
+ .debug_abbrev  0x0000000000000000       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_ashldi3.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_ashldi3.o)
+ .debug_str     0x0000000000000000       0xa6 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_ashldi3.o)
+ .ARM.attributes
+                0x0000000000000000       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_ashldi3.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -1357,11 +1395,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/cciMebuF.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccSNvSWl.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x0000000010000100     0x1cd0
+.text           0x0000000010000100     0x1b58
                 0x0000000010000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x0000000010000100       0xd4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1428,179 +1466,238 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  .text.running_on_fpga
                 0x000000001000034c       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
                 0x000000001000034c                running_on_fpga
+ .text.hw_claim_lock
+                0x000000001000035c       0x18 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x000000001000035c                hw_claim_lock
+ .text.hw_claim_unlock
+                0x0000000010000374       0x14 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x0000000010000374                hw_claim_unlock
+ .text.hw_is_claimed
+                0x0000000010000388       0x16 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x0000000010000388                hw_is_claimed
  .text.hw_claim_or_assert
-                0x000000001000035c       0x44 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x000000001000035c                hw_claim_or_assert
+                0x000000001000039e       0x3a CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x000000001000039e                hw_claim_or_assert
  .text.spin_locks_reset
-                0x00000000100003a0       0x1c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x00000000100003a0                spin_locks_reset
+                0x00000000100003d8       0x1c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x00000000100003d8                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x00000000100003bc       0x18 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x00000000100003bc                next_striped_spin_lock_num
+                0x00000000100003f4       0x18 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x00000000100003f4                next_striped_spin_lock_num
+ .text.set_raw_irq_handler_and_unlock
+                0x000000001000040c       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .text.irq_is_enabled
+                0x0000000010000434       0x18 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000434                irq_is_enabled
+ .text.irq_set_mask_enabled
+                0x000000001000044c       0x20 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x000000001000044c                irq_set_mask_enabled
  .text.irq_set_enabled
-                0x00000000100003d4       0x24 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100003d4                irq_set_enabled
+                0x000000001000046c        0xe CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x000000001000046c                irq_set_enabled
+ *fill*         0x000000001000047a        0x2 
  .text.irq_get_vtable_handler
-                0x00000000100003f8       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100003f8                irq_get_vtable_handler
+                0x000000001000047c       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x000000001000047c                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x0000000010000408       0x54 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000408                irq_set_exclusive_handler
+                0x000000001000048c       0x40 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x000000001000048c                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x000000001000045c      0x1b0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x000000001000045c                irq_remove_handler
+                0x00000000100004cc      0x164 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100004cc                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x000000001000060c       0xb4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x000000001000060c                irq_add_tail_to_free_list
+                0x0000000010000630       0xa0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000630                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x00000000100006c0       0x24 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100006c0                irq_init_priorities
+                0x00000000100006d0       0x24 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100006d0                irq_init_priorities
  .text.lock_init
-                0x00000000100006e4       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x00000000100006e4                lock_init
+                0x00000000100006f4       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x00000000100006f4                lock_init
  .text.mutex_init
-                0x00000000100006f4       0x1c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x00000000100006f4                mutex_init
+                0x0000000010000704       0x1a CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010000704                mutex_init
  .text.recursive_mutex_init
-                0x0000000010000710       0x1c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x0000000010000710                recursive_mutex_init
+                0x000000001000071e       0x1a CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x000000001000071e                recursive_mutex_init
+ .text.time_reached
+                0x0000000010000738       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
  .text.timer_pool_entry_comparator
-                0x000000001000072c       0x34 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
-                0x000000001000072c                timer_pool_entry_comparator
- .text.sleep_until_callback
                 0x0000000010000760       0x30 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
- .text.add_alarm_under_lock.isra.0
-                0x0000000010000790      0x100 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000760                timer_pool_entry_comparator
+ .text.alarm_pool_post_alloc_init
+                0x0000000010000790       0x40 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
+ .text.sleep_until_callback
+                0x00000000100007d0       0x30 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
+ .text.ph_add_child_node.isra.0
+                0x0000000010000800       0x22 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010000822        0x2 
+ .text.add_alarm_under_lock
+                0x0000000010000824       0xc8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x0000000010000890      0x1b8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100008ec      0x190 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x0000000010000a48       0x6c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000a48                alarm_pool_init_default
+                0x0000000010000a7c       0x3c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000a7c                alarm_pool_init_default
  .text.alarm_pool_add_alarm_at
-                0x0000000010000ab4      0x17c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000ab4                alarm_pool_add_alarm_at
+                0x0000000010000ab8       0xcc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000ab8                alarm_pool_add_alarm_at
  .text.alarm_pool_cancel_alarm
-                0x0000000010000c30       0x74 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000c30                alarm_pool_cancel_alarm
+                0x0000000010000b84       0x66 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000b84                alarm_pool_cancel_alarm
+ *fill*         0x0000000010000bea        0x2 
  .text.best_effort_wfe_or_timeout
-                0x0000000010000ca4       0x78 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000ca4                best_effort_wfe_or_timeout
+                0x0000000010000bec       0x44 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000bec                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x0000000010000d1c       0xbc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000c30       0x94 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x0000000010000dd8       0x18 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000dd8                hardware_alarm_claim
+                0x0000000010000cc4       0x18 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000cc4                hardware_alarm_claim
  .text.time_us_64
-                0x0000000010000df0       0x14 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000df0                time_us_64
+                0x0000000010000cdc       0x14 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000cdc                time_us_64
  .text.hardware_alarm_set_callback
-                0x0000000010000e04       0x8c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000e04                hardware_alarm_set_callback
+                0x0000000010000cf0       0x94 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000cf0                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x0000000010000e90       0xe0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000e90                hardware_alarm_set_target
+                0x0000000010000d84       0xbc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000d84                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x0000000010000f70       0x3c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000f70                hardware_alarm_cancel
+                0x0000000010000e40       0x40 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000e40                hardware_alarm_cancel
+ .text.ph_add_child_node.isra.0
+                0x0000000010000e80       0x22 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_merge_nodes
-                0x0000000010000fac       0x68 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010000ea2       0x36 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
+ .text.ph_clear
+                0x0000000010000ed8       0x34 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010000ed8                ph_clear
  .text.ph_post_alloc_init
-                0x0000000010001014       0x3c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001014                ph_post_alloc_init
+                0x0000000010000f0c        0xe CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010000f0c                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x0000000010001050       0x90 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001050                ph_merge_two_pass
+                0x0000000010000f1a       0x48 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010000f1a                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x00000000100010e0      0x100 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010000f62       0x52 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x00000000100011e0      0x104 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x00000000100011e0                ph_remove_head
+                0x0000000010000fb4       0x14 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010000fb4                ph_remove_head
  .text.ph_remove_and_free_node
-                0x00000000100012e4       0x7c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x00000000100012e4                ph_remove_and_free_node
+                0x0000000010000fc8       0x6e CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010000fc8                ph_remove_and_free_node
+ *fill*         0x0000000010001036        0x2 
+ .text.clock_configure
+                0x0000000010001038       0xd4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000010001038                clock_configure
  .text.clocks_init
-                0x0000000010001360      0x2bc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x0000000010001360                clocks_init
+                0x000000001000110c       0xf4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x000000001000110c                clocks_init
  .text.pll_init
-                0x000000001000161c       0xb0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x000000001000161c                pll_init
+                0x0000000010001200       0x9c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x0000000010001200                pll_init
  .text.watchdog_start_tick
-                0x00000000100016cc       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x00000000100016cc                watchdog_start_tick
+                0x000000001000129c       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x000000001000129c                watchdog_start_tick
  .text.xosc_init
-                0x00000000100016dc       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x00000000100016dc                xosc_init
+                0x00000000100012ac       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x00000000100012ac                xosc_init
  .text.runtime_init
-                0x0000000010001704       0xf0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001704                runtime_init
- .text._exit    0x00000000100017f4        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100017f4                _exit
- .text.exit     0x00000000100017f8        0x8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100017f8                exit
- .text.panic    0x0000000010001800       0x30 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001800                panic
+                0x00000000100012d4       0xcc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100012d4                runtime_init
+ .text._exit    0x00000000100013a0        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100013a0                _exit
+ .text.exit     0x00000000100013a4        0x6 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100013a4                exit
+ *fill*         0x00000000100013aa        0x2 
+ .text.panic    0x00000000100013ac       0x30 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100013ac                panic
  .text.hard_assertion_failure
-                0x0000000010001830        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001830                hard_assertion_failure
+                0x00000000100013dc        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100013dc                hard_assertion_failure
  .text._out_char
-                0x000000001000183c       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000000100013e8        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.weak_raw_vprintf
-                0x000000001000184c       0x30 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x000000001000184c                weak_raw_vprintf
- .text          0x000000001000187c       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x00000000100013f4       0x30 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000000100013f4                weak_raw_vprintf
+ .text          0x0000000010001424       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x000000001000188c       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x000000001000188c                rom_func_lookup
+                0x0000000010001434       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010001434                rom_func_lookup
  .text.rom_data_lookup
-                0x000000001000189c       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x000000001000189c                rom_data_lookup
+                0x0000000010001444       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010001444                rom_data_lookup
  .text.rom_funcs_lookup
-                0x00000000100018ac       0x44 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x00000000100018ac                rom_funcs_lookup
+                0x0000000010001454       0x26 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010001454                rom_funcs_lookup
+ *fill*         0x000000001000147a        0x2 
  .text.__wrap___aeabi_uidiv
-                0x00000000100018f0       0x4c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x00000000100018f0                __wrap___aeabi_uidiv
-                0x00000000100018f0                __wrap___aeabi_uidivmod
-                0x00000000100018f0                div_u32u32
-                0x00000000100018f0                divmod_u32u32
-                0x00000000100018f8                divmod_u32u32_unsafe
-                0x0000000010001920                divmod_u32u32_savestate
+                0x000000001000147c       0x4c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x000000001000147c                __wrap___aeabi_uidiv
+                0x000000001000147c                __wrap___aeabi_uidivmod
+                0x000000001000147c                div_u32u32
+                0x000000001000147c                divmod_u32u32
+                0x0000000010001484                divmod_u32u32_unsafe
+                0x00000000100014ac                divmod_u32u32_savestate
+ .text.__wrap___aeabi_ldiv
+                0x00000000100014c8      0x424 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x00000000100014c8                div_s64s64
+                0x00000000100014c8                divmod_s64s64
+                0x00000000100014c8                __wrap___aeabi_ldivmod
+                0x00000000100014f8                div_u64u64
+                0x00000000100014f8                divmod_u64u64
+                0x00000000100014f8                __wrap___aeabi_uldivmod
+                0x0000000010001508                divmod_u64u64_savestate
+                0x0000000010001528                divmod_s64s64_unsafe
+                0x00000000100015b0                divmod_u64u64_unsafe
  .text.__aeabi_double_init
-                0x000000001000193c       0x94 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x000000001000193c                __aeabi_double_init
+                0x00000000100018ec       0x58 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x00000000100018ec                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x00000000100019d0       0x2c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x00000000100019d0                double_table_shim_on_use_helper
+                0x0000000010001944       0x2c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010001944                double_table_shim_on_use_helper
  .text.__aeabi_float_init
-                0x00000000100019fc       0x64 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x00000000100019fc                __aeabi_float_init
+                0x0000000010001970       0x5c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000010001970                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x0000000010001a60       0x2c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x0000000010001a60                float_table_shim_on_use_helper
- .text          0x0000000010001a8c       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010001a8c                __aeabi_mem_init
- .text.memcpy   0x0000000010001a9c        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010001a9c                __wrap___aeabi_memcpy
-                0x0000000010001a9c                __wrap_memcpy
+                0x00000000100019cc       0x2c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x00000000100019cc                float_table_shim_on_use_helper
+ .text          0x00000000100019f8       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x00000000100019f8                __aeabi_mem_init
+ .text.memcpy   0x0000000010001a08        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010001a08                __wrap___aeabi_memcpy
+                0x0000000010001a08                __wrap_memcpy
  .text.stdio_out_chars_no_crlf
-                0x0000000010001aa8       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001a14        0xe CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x0000000010001a22        0x2 
  .text.stdio_out_chars_crlf
-                0x0000000010001ab8       0xb4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001a24       0x80 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .text.stdout_serialize_begin
+                0x0000000010001aa4       0x2c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001aa4                stdout_serialize_begin
+ .text.stdout_serialize_end
+                0x0000000010001ad0       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001ad0                stdout_serialize_end
  .text.stdio_put_string.isra.0
-                0x0000000010001b6c       0xfc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001ae0       0x80 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x0000000010001c68       0x98 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010001c68                __wrap_putchar
+                0x0000000010001b60       0x18 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001b60                __wrap_putchar
+ .text.stdio_flush
+                0x0000000010001b78       0x1c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001b78                stdio_flush
  .text.__wrap_puts
-                0x0000000010001d00       0x3c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010001d00                __wrap_puts
- .text          0x0000000010001d3c       0x5c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
-                0x0000000010001d3c                strlen
+                0x0000000010001b94       0x1e CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001b94                __wrap_puts
+ *fill*         0x0000000010001bb2        0x2 
+ .text          0x0000000010001bb4       0x5c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x0000000010001bb4                strlen
  *(.fini)
- .fini          0x0000000010001d98        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
-                0x0000000010001d98                _fini
- *fill*         0x0000000010001d9c        0x4 
- .fini.__stub   0x0000000010001da0       0x30 linker stubs
+ .fini          0x0000000010001c10        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x0000000010001c10                _fini
+ *fill*         0x0000000010001c14        0x4 
+ .fini.__stub   0x0000000010001c18       0x40 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -1612,80 +1709,78 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x0000000010001dd0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x0000000010001dd0                . = ALIGN (0x4)
+ .eh_frame      0x0000000010001c58        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x0000000010001c58                . = ALIGN (0x4)
 
-.glue_7         0x0000000010001dd0        0x0
- .glue_7        0x0000000010001dd0        0x0 linker stubs
+.glue_7         0x0000000010001c58        0x0
+ .glue_7        0x0000000010001c58        0x0 linker stubs
 
-.glue_7t        0x0000000010001dd0        0x0
- .glue_7t       0x0000000010001dd0        0x0 linker stubs
+.glue_7t        0x0000000010001c58        0x0
+ .glue_7t       0x0000000010001c58        0x0 linker stubs
 
-.vfp11_veneer   0x0000000010001dd0        0x0
- .vfp11_veneer  0x0000000010001dd0        0x0 linker stubs
+.vfp11_veneer   0x0000000010001c58        0x0
+ .vfp11_veneer  0x0000000010001c58        0x0 linker stubs
 
-.v4_bx          0x0000000010001dd0        0x0
- .v4_bx         0x0000000010001dd0        0x0 linker stubs
+.v4_bx          0x0000000010001c58        0x0
+ .v4_bx         0x0000000010001c58        0x0 linker stubs
 
-.iplt           0x0000000010001dd0        0x0
- .iplt          0x0000000010001dd0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x0000000010001c58        0x0
+ .iplt          0x0000000010001c58        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x0000000010001dd0       0xa0
+.rodata         0x0000000010001c58       0x94
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
- .rodata.hardware_alarm_claim.str1.4
-                0x0000000010001dd0       0x22 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x0000000010001df2        0x2 
- .rodata.panic.str1.4
-                0x0000000010001df4       0x12 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x0000000010001e06        0x2 
- .rodata.hard_assertion_failure.str1.4
-                0x0000000010001e08        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .rodata.str1.4
-                0x0000000010001e14       0x34 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .rodata.hardware_alarm_claim.str1.1
+                0x0000000010001c58       0x22 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .rodata.panic.str1.1
+                0x0000000010001c7a       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                                         0x12 (size before relaxing)
+ .rodata.hard_assertion_failure.str1.1
+                0x0000000010001c8a        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .rodata.str1.1
+                0x0000000010001c96       0x30 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x0000000010001e48        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001cc6        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x0000000010001e54        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001cd2        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x0000000010001e60        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001cde        0xc CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x0000000010001e6c        0x2 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010001e70                . = ALIGN (0x4)
- *fill*         0x0000000010001e6e        0x2 
+                0x0000000010001cea        0x2 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001cec                . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x0000000010001e70                . = ALIGN (0x4)
+                0x0000000010001cec                . = ALIGN (0x4)
 
-.rel.dyn        0x0000000010001e70        0x0
- .rel.iplt      0x0000000010001e70        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x0000000010001cec        0x0
+ .rel.iplt      0x0000000010001cec        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000010001e70                __exidx_start = .
+                0x0000000010001cec                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000000010001e70                __exidx_end = .
-                0x0000000010001e70                . = ALIGN (0x4)
-                0x0000000010001e70                __binary_info_start = .
+                0x0000000010001cec                __exidx_end = .
+                0x0000000010001cec                . = ALIGN (0x4)
+                0x0000000010001cec                __binary_info_start = .
 
-.binary_info    0x0000000010001e70       0x18
+.binary_info    0x0000000010001cec       0x18
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x0000000010001e70        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001cec        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x0000000010001e74        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001cf0        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x0000000010001e78        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001cf4        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x0000000010001e7c        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001cf8        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x0000000010001e80        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001cfc        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x0000000010001e84        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001d00        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
-                0x0000000010001e88                __binary_info_end = .
-                0x0000000010001e88                . = ALIGN (0x4)
-                0x0000000010001e88                __etext = .
+                0x0000000010001d04                __binary_info_end = .
+                0x0000000010001d04                . = ALIGN (0x4)
+                0x0000000010001d04                __etext = .
 
 .ram_vector_table
                 0x0000000020000000       0xc0
@@ -1694,157 +1789,164 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x0000000020000000       0xc0 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x0000000020000000                ram_vector_table
 
-.data           0x00000000200000c0      0x18c load address 0x0000000010001e88
+.data           0x00000000200000c0      0x1bc load address 0x0000000010001d04
                 0x00000000200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
+ .time_critical.mutex_try_enter
+                0x00000000200000c0       0x42 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x00000000200000c0                mutex_try_enter
+ .time_critical.mutex_enter_block_until
+                0x0000000020000102       0x58 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000020000102                mutex_enter_block_until
  .time_critical.mutex_try_enter_block_until
-                0x00000000200000c0       0x9c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x00000000200000c0                mutex_try_enter_block_until
+                0x000000002000015a       0x2e CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x000000002000015a                mutex_try_enter_block_until
  .time_critical.mutex_exit
-                0x000000002000015c       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x000000002000015c                mutex_exit
+                0x0000000020000188       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000020000188                mutex_exit
  *(.text*)
- .text          0x0000000020000184        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
-                0x0000000020000184                __aeabi_ldiv0
-                0x0000000020000184                __aeabi_idiv0
- .text.__stub   0x0000000020000188       0x10 linker stubs
-                0x0000000020000198                . = ALIGN (0x4)
+ .text          0x00000000200001b0        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x00000000200001b0                __aeabi_ldiv0
+                0x00000000200001b0                __aeabi_idiv0
+ *fill*         0x00000000200001b4        0x4 
+ .text.__stub   0x00000000200001b8       0x10 linker stubs
+                0x00000000200001c8                . = ALIGN (0x4)
  *(.rodata*)
-                0x0000000020000198                . = ALIGN (0x4)
+                0x00000000200001c8                . = ALIGN (0x4)
  *(.data*)
  .data.striped_spin_lock_num
-                0x0000000020000198        0x1 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- *fill*         0x0000000020000199        0x3 
- .data          0x000000002000019c       0x48 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-                0x000000002000019c                irq_handler_chain_slots
-                0x00000000200001cc                irq_handler_chain_first_slot
-                0x00000000200001d6                irq_handler_chain_remove_tail
+                0x00000000200001c8        0x1 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ *fill*         0x00000000200001c9        0x3 
+ .data          0x00000000200001cc       0x48 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+                0x00000000200001cc                irq_handler_chain_slots
+                0x00000000200001fc                irq_handler_chain_first_slot
+                0x0000000020000206                irq_handler_chain_remove_tail
  .data.default_alarm_pool
-                0x00000000200001e4       0x18 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000020000214       0x18 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
  .data.default_alarm_pool_heap
-                0x00000000200001fc       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000002000020c        0x4 
+                0x000000002000022c       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000002000023c        0x4 
  .data.aeabi_bits_funcs
-                0x0000000020000210       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-                0x0000000020000210                aeabi_bits_funcs
-                0x0000000020000220                aeabi_bits_funcs_end
+                0x0000000020000240       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x0000000020000240                aeabi_bits_funcs
+                0x0000000020000250                aeabi_bits_funcs_end
  .data.aeabi_mem_funcs
-                0x0000000020000220       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000020000220                aeabi_mem_funcs
-                0x0000000020000230                aeabi_mem_funcs_end
-                0x0000000020000230                . = ALIGN (0x4)
+                0x0000000020000250       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000020000250                aeabi_mem_funcs
+                0x0000000020000260                aeabi_mem_funcs_end
+                0x0000000020000260                . = ALIGN (0x4)
  *(.after_data.*)
-                0x0000000020000230                . = ALIGN (0x4)
-                0x0000000020000230                PROVIDE (__mutex_array_start = .)
+                0x0000000020000260                . = ALIGN (0x4)
+                0x0000000020000260                PROVIDE (__mutex_array_start = .)
  *(SORT_BY_NAME(.mutex_array.*))
  *(.mutex_array)
- .mutex_array   0x0000000020000230        0x8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000020000238                PROVIDE (__mutex_array_end = .)
-                0x0000000020000238                . = ALIGN (0x4)
-                0x0000000020000238                PROVIDE (__preinit_array_start = .)
+ .mutex_array   0x0000000020000260        0x8 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000020000268                PROVIDE (__mutex_array_end = .)
+                0x0000000020000268                . = ALIGN (0x4)
+                0x0000000020000268                PROVIDE (__preinit_array_start = .)
  *(SORT_BY_NAME(.preinit_array.*))
  .preinit_array.00001
-                0x0000000020000238        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000020000268        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .preinit_array.00010
-                0x000000002000023c        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x000000002000026c        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .preinit_array.00020
-                0x0000000020000240        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000020000270        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .preinit_array.00020
-                0x0000000020000244        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000020000274        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  *(.preinit_array)
-                0x0000000020000248                PROVIDE (__preinit_array_end = .)
-                0x0000000020000248                . = ALIGN (0x4)
-                0x0000000020000248                PROVIDE (__init_array_start = .)
+                0x0000000020000278                PROVIDE (__preinit_array_end = .)
+                0x0000000020000278                . = ALIGN (0x4)
+                0x0000000020000278                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
- .init_array    0x0000000020000248        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x000000002000024c                PROVIDE (__init_array_end = .)
-                0x000000002000024c                . = ALIGN (0x4)
-                0x000000002000024c                PROVIDE (__fini_array_start = .)
+ .init_array    0x0000000020000278        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x000000002000027c                PROVIDE (__init_array_end = .)
+                0x000000002000027c                . = ALIGN (0x4)
+                0x000000002000027c                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array)
-                0x000000002000024c                PROVIDE (__fini_array_end = .)
+                0x000000002000027c                PROVIDE (__fini_array_end = .)
  *(.jcr)
-                0x000000002000024c                . = ALIGN (0x4)
-                0x000000002000024c                __data_end__ = .
+                0x000000002000027c                . = ALIGN (0x4)
+                0x000000002000027c                __data_end__ = .
 
 .tm_clone_table
-                0x000000002000024c        0x0 load address 0x0000000010002014
+                0x000000002000027c        0x0 load address 0x0000000010001ec0
  .tm_clone_table
-                0x000000002000024c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x000000002000027c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
-                0x000000002000024c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
+                0x000000002000027c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x000000002000024c        0x0 load address 0x0000000010002014
- .igot.plt      0x000000002000024c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.igot.plt       0x000000002000027c        0x0 load address 0x0000000010001ec0
+ .igot.plt      0x000000002000027c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x000000002000024c        0x0 load address 0x0000000010002014
-                0x000000002000024c                . = ALIGN (0x4)
+                0x000000002000027c        0x0 load address 0x0000000010001ec0
+                0x000000002000027c                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x0000000020040000        0x0 load address 0x0000000010002014
+.scratch_x      0x0000000020040000        0x0 load address 0x0000000010001ec0
                 0x0000000020040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x0000000020040000                . = ALIGN (0x4)
                 0x0000000020040000                __scratch_x_end__ = .
-                0x0000000010002014                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x0000000010001ec0                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x0000000020041000        0x0 load address 0x0000000010002014
+.scratch_y      0x0000000020041000        0x0 load address 0x0000000010001ec0
                 0x0000000020041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x0000000020041000                . = ALIGN (0x4)
                 0x0000000020041000                __scratch_y_end__ = .
-                0x0000000010002014                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x0000000010001ec0                __scratch_y_source__ = LOADADDR (.scratch_y)
 
-.bss            0x0000000020000250      0x3cc
-                0x0000000020000250                . = ALIGN (0x4)
-                0x0000000020000250                __bss_start__ = .
+.bss            0x0000000020000280      0x3cc
+                0x0000000020000280                . = ALIGN (0x4)
+                0x0000000020000280                __bss_start__ = .
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.bss*)))
  .bss.default_alarm_pool_entries
-                0x0000000020000250      0x100 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
- .bss.sd_table  0x0000000020000350      0x100 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x0000000020000350                sd_table
- .bss.sf_table  0x0000000020000450      0x100 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x0000000020000450                sf_table
- .bss           0x0000000020000550       0x1c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x0000000020000280      0x100 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
+ .bss           0x0000000020000380       0x1c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  .bss.alarm_callbacks
-                0x000000002000056c       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x000000002000039c       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .bss.configured_freq
-                0x000000002000057c       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .bss.default_alarm_pool_entry_ids_high
-                0x00000000200005a4       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
- .bss.default_alarm_pool_heap_nodes
-                0x00000000200005b4       0x30 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
- .bss.drivers   0x00000000200005e4        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .bss.filter    0x00000000200005e8        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000200003ac       0x28 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .bss.drivers   0x00000000200003d4        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .bss.filter    0x00000000200003d8        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .bss.lazy_vsnprintf
-                0x00000000200005ec        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .bss.pools     0x00000000200005f0       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000200003dc        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .bss.pools     0x00000000200003e0       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
+ .bss.sd_table  0x00000000200003f0      0x100 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x00000000200003f0                sd_table
  .bss.sf_clz_func
-                0x0000000020000600        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x0000000020000600                sf_clz_func
+                0x00000000200004f0        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x00000000200004f0                sf_clz_func
+ .bss.sf_table  0x00000000200004f4      0x100 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x00000000200004f4                sf_table
  .bss.sleep_notifier
-                0x0000000020000604        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000200005f4        0x4 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
  .bss.target_hi
-                0x0000000020000608       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .bss.claimed   0x0000000020000618        0x1 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000200005f8       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .bss.claimed   0x0000000020000608        0x1 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .bss.default_alarm_pool_entry_ids_high
+                0x0000000020000609       0x10 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
+ .bss.default_alarm_pool_heap_nodes
+                0x0000000020000619       0x30 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/common/pico_time/time.c.obj
  .bss.irq_hander_chain_free_slot_head
-                0x0000000020000619        0x1 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000020000649        0x1 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .bss.timer_callbacks_pending
-                0x000000002000061a        0x1 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x000000002000064a        0x1 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  *(COMMON)
-                0x000000002000061c                . = ALIGN (0x4)
- *fill*         0x000000002000061b        0x1 
-                0x000000002000061c                __bss_end__ = .
+                0x000000002000064c                . = ALIGN (0x4)
+ *fill*         0x000000002000064b        0x1 
+                0x000000002000064c                __bss_end__ = .
 
-.heap           0x000000002000061c      0x800
-                0x000000002000061c                __end__ = .
-                0x000000002000061c                end = __end__
+.heap           0x000000002000064c      0x800
+                0x000000002000064c                __end__ = .
+                0x000000002000064c                end = __end__
  *(.heap*)
- .heap          0x000000002000061c      0x800 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-                0x0000000020000e1c                __HeapLimit = .
+ .heap          0x000000002000064c      0x800 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+                0x0000000020000e4c                __HeapLimit = .
 
 .stack1_dummy   0x0000000020040000        0x0
  *(.stack1*)
@@ -1853,8 +1955,8 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.stack*)
  .stack         0x0000000020041000      0x800 CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x0000000010002014        0x0
-                0x0000000010002014                __flash_binary_end = .
+.flash_end      0x0000000010001ec0        0x0
+                0x0000000010001ec0                __flash_binary_end = .
                 0x0000000020040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x0000000020042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -1909,7 +2011,7 @@ LOAD CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src
 LOAD CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 LOAD CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-LOAD /tmp/cciMebuF.o
+LOAD /tmp/ccSNvSWl.o
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -1993,7 +2095,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000000000004f2       0x2c CMakeFiles/main_flashloader.dir/home/runner/work/pico/pico/lib/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .ARM.attributes
-                0x000000000000051e       0x22 /tmp/cciMebuF.o
+                0x000000000000051e       0x22 /tmp/ccSNvSWl.o
  .ARM.attributes
                 0x0000000000000540       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
