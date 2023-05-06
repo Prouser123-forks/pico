@@ -41,25 +41,30 @@ jobs:
       # Build the program with the given configuration
       run: cmake --build ${{github.workspace}}/build --config ${{ matrix.build-type }}
 
-    - name: Upload Build Artifacts
+    - name: "Upload Build Artifacts"
       uses: actions/upload-artifact@v3
       with:
-        name: build-artifacts
+        name: ${{ matrix.build-type }}
         path: |
           build/main_*.*
     
-    - name: Create variable with lowercase build type
+    - name: "(deploy/main): Create variable with lowercase build type"
+      if: ${{ github.ref == 'refs/heads/main' }}
       run: echo "BUILD_TYPE_LOWERCASE=$(echo "${{ matrix.build-type }}" | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
     
-    - name: Read out build type variable
+    - name: "(deploy/main): Read out build type variable"
+      if: ${{ github.ref == 'refs/heads/main' }}
       run: echo "Found build variable '$BUILD_TYPE_LOWERCASE'"
     
-    - name: Create directory structure for GitHub Pages deployment
+    - name: "(deploy/main): Create directory structure for GitHub Pages deployment"
       if: ${{ github.ref == 'refs/heads/main' }}
-      run: mkdir -p pages-deploy/$BUILD_TYPE_LOWERCASE && cp build/main_*.* pages/deploy/$BUILD_TYPE_LOWERCASE
+      run: mkdir -p pages-deploy/$BUILD_TYPE_LOWERCASE && cp build/main_*.* pages-deploy/$BUILD_TYPE_LOWERCASE
 
-    
-    - name: Upload Build Artifacts to GitHub Pages (main branch only)
+    - name: "(deploy/main): Create sha.txt file"
+      if: ${{ github.ref == 'refs/heads/main' }}
+      run: git rev-parse HEAD > pages-deploy/$BUILD_TYPE_LOWERCASE/sha.txt
+
+    - name: "(deploy/main): Upload Build Artifacts to GitHub Pages"
       if: ${{ github.ref == 'refs/heads/main' }}
       uses: peaceiris/actions-gh-pages@v3
       with:
