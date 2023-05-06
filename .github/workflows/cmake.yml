@@ -23,7 +23,7 @@ jobs:
     - name: "(pkgs): Upgrade packages"
       run: sudo apt-get upgrade -y
     - name: "(pkgs): Install toolchain"
-      run: sudo apt-get install -y cmake gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential libstdc++-arm-none-eabi-newlib
+      run: sudo apt-get install -y cmake gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential libstdc++-arm-none-eabi-newlib python3 git
 
 
     - uses: actions/checkout@v3
@@ -38,6 +38,15 @@ jobs:
     - name: Build
       # Build your program with the given configuration
       run: cmake --build ${{github.workspace}}/build --config ${{env.BUILD_TYPE}}
+
+    - name: Upload Build Artifacts (uf2, hex, bin)
+      uses: actions/upload-artifact@v3
+      with:
+        name: build-artifacts
+        path: |
+          main_*.uf2
+          main_*.hex
+          main_*.bin
 
 #    - name: Test
 #      working-directory: ${{github.workspace}}/build
