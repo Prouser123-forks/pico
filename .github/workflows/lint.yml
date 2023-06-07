@@ -1,0 +1,23 @@
+name: Lint
+
+# Run on any push or PR.
+on: ["push", "pull_request"]
+
+jobs:
+  include-guards:
+    name: Header Include Guards
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        # Checkout submodules (non-recursive)
+        submodules: 'true'
+
+    - name: Run header includes guards check
+      uses: sbeyer/include-guards-check-action@v1.0.0
+      with:
+        path: "src/"
+        pattern: "{last_dir}_{file_base}_H_"
