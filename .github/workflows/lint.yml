@@ -21,7 +21,7 @@ jobs:
       with:
         path: "src/"
         # Ignore tinyusb-config and rtos-config folders
-        ignore: "/src\/core\/(tinyusb|rtos)-config\/"
+        ignore: "/src\\/core\\/(tinyusb|rtos)-config\\/"
         pattern: "{last_dir}_{file_base}_H_"
 
     - name: Run header includes guards check (tinyusb-config)
