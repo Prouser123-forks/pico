@@ -13,8 +13,8 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
       with:
-        # Checkout submodules (non-recursive)
-        submodules: 'true'
+        # Don't checkout submodules
+        submodules: 'false'
 
     - name: Run header includes guards check
       uses: genoswitch/include-guards-check-action@36c8a9117aecd171e1b187155675f9b4d99f26ff
@@ -25,12 +25,16 @@ jobs:
         pattern: "{last_dir}_{file_base}_H_"
 
     - name: Run header includes guards check (tinyusb-config)
+      # Run even if previous step failed
+      if: '!cancelled()'
       uses: genoswitch/include-guards-check-action@36c8a9117aecd171e1b187155675f9b4d99f26ff
       with:
         path: "src/core/tinyusb-config/"
         pattern: "_{filename}_H_"
 
     - name: Run header includes guards check (rtos-config)
+      # Run even if previous step failed
+      if: '!cancelled()'
       uses: genoswitch/include-guards-check-action@36c8a9117aecd171e1b187155675f9b4d99f26ff
       with:
         path: "src/core/rtos-config/"
