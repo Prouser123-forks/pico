@@ -30,7 +30,7 @@ jobs:
       uses: genoswitch/include-guards-check-action@36c8a9117aecd171e1b187155675f9b4d99f26ff
       with:
         path: "src/core/tinyusb-config/"
-        pattern: "_{filename}_H_"
+        pattern: "_{file_base}_H_"
 
     - name: Run header includes guards check (rtos-config)
       # Run even if previous step failed
