@@ -20,4 +20,18 @@ jobs:
       uses: genoswitch/include-guards-check-action@36c8a9117aecd171e1b187155675f9b4d99f26ff
       with:
         path: "src/"
+        # Ignore tinyusb-config and rtos-config folders
+        ignore: "/src\/core\/(tinyusb|rtos)-config\/"
         pattern: "{last_dir}_{file_base}_H_"
+
+    - name: Run header includes guards check (tinyusb-config)
+      uses: genoswitch/include-guards-check-action@36c8a9117aecd171e1b187155675f9b4d99f26ff
+      with:
+        path: "src/core/tinyusb-config/"
+        pattern: "_{filename}_H_"
+
+    - name: Run header includes guards check (rtos-config)
+      uses: genoswitch/include-guards-check-action@36c8a9117aecd171e1b187155675f9b4d99f26ff
+      with:
+        path: "src/core/rtos-config/"
+        pattern: "FREERTOS_CONFIG_H"
