@@ -17,7 +17,7 @@ jobs:
         submodules: 'true'
 
     - name: Run header includes guards check
-      uses: sbeyer/include-guards-check-action@v1.0.0
+      uses: genoswitch/include-guards-check-action@36c8a9117aecd171e1b187155675f9b4d99f26ff
       with:
         path: "src/"
         pattern: "{last_dir}_{file_base}_H_"
