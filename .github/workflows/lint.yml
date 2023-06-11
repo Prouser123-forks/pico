@@ -39,3 +39,20 @@ jobs:
       with:
         path: "src/core/rtos-config/"
         pattern: "FREERTOS_CONFIG_H"
+
+  check-spdx-headers:
+    name: Check SPDX Headers
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        # Don't checkout submodules
+        submodules: 'false'
+    
+    - name: Check files for SPDX headers
+      uses: enarx/spdx@675a8a4876c30a241d382691d2a265dbea1e3467
+      with:
+        licenses: MIT BSD-3-Clause
