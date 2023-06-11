@@ -40,8 +40,23 @@ jobs:
         # Learn more about CodeQL language support at https://aka.ms/codeql-docs/language-support
 
     steps:
+    - name: "(pkgs): Update package lists"
+      run: sudo apt-get update
+    
+    - name: "(pkgs): Hold snapd, firefox"
+      run: sudo apt-mark hold snapd firefox
+
+    - name: "(pkgs): Upgrade packages"
+      run: sudo apt-get upgrade -y
+
+    - name: "(pkgs): Install toolchain"
+      run: sudo apt-get install -y cmake gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential libstdc++-arm-none-eabi-newlib python3 git
+
     - name: Checkout repository
       uses: actions/checkout@v3
+      with:
+        # Checkout submodules (non-recursive)
+        submodules: 'true'
 
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
@@ -58,8 +73,8 @@ jobs:
 
     # Autobuild attempts to build any compiled languages  (C/C++, C#, Go, or Java).
     # If this step fails, then you should remove it and run the build manually (see below)
-    - name: Autobuild
-      uses: github/codeql-action/autobuild@v2
+    #- name: Autobuild
+    #  uses: github/codeql-action/autobuild@v2
 
     # ℹ️ Command-line programs to run using the OS shell.
     # 📚 See https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsrun
@@ -70,6 +85,14 @@ jobs:
     # - run: |
     #     echo "Run, Build Application using script"
     #     ./location_of_script_within_repo/buildscript.sh
+    
+    - name: Configure CMake
+      # Configure CMake in a 'build' subdirectory.
+      run: cmake -B ${{github.workspace}}/build -S ${{github.workspace}}/src -DCMAKE_BUILD_TYPE=${{ matrix.build-type }}
+
+    - name: Build
+      # Build the program with the given configuration
+      run: cmake --build ${{github.workspace}}/build --config ${{ matrix.build-type }}
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
